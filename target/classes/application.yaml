@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: e_wallet
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/sync_manager_service
+    username: root
+    password: Password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
